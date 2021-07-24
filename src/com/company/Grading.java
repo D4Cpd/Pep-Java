@@ -7,6 +7,10 @@ public class Grading {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter Marks:");
         int marks=sc.nextInt();
+        sc.nextLine();
+        String name=sc.nextLine();
+        System.out.println("Name:"+name);
+        System.out.print("Remark:");
         if(marks>90 && marks<=100)
             System.out.println("Excellent");
         else if (marks>80 && marks<=90)
