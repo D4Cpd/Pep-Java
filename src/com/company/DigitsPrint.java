@@ -1,7 +1,5 @@
 package com.company;
-
 import java.util.Scanner;
-
 public class DigitsPrint {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
@@ -19,8 +17,6 @@ public class DigitsPrint {
             System.out.println(n);
             n=rem;
             div=div/10;
-
         }
-
     }
 }
