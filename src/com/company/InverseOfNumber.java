@@ -13,13 +13,9 @@ public class InverseOfNumber {
             }
         int div=(int) Math.pow(10,count-1);
         while (div!=0){
-
             i=i+(n%10)*div;
             n=n/10;
             div=div/10;
-
-
-
         }
         System.out.println(i);
     }
