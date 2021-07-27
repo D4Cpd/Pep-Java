@@ -13,20 +13,25 @@ public class RotateNo {
             count++;
         }
 
+
+
         if(k>=0){
+            if(k>=count)
+                k=k%count;
             int div=(int) Math.pow(10,k);
             System.out.println(count);
             rem=n%div;
             n=n/div;
             int div1=(int) Math.pow(10,count-k);
             newnum=rem*div1+n;}
-        else{
+        else{if((k*-1)>count)
+                k=k%count;
 
             int div=(int) Math.pow(10,count+k);
             System.out.println(count);
             rem=n%div;
             n=n/div;
-            int div1=(int) Math.pow(10,count+k);
+            int div1=(int) Math.pow(10,-k);
             newnum=rem*div1+n;}
 
         System.out.println(newnum);
