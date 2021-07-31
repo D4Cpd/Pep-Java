@@ -12,7 +12,7 @@ public class Pattern3 {
                 if(j>=i)
                     System.out.print("*\t");
                 else
-                    System.out.print(" \t");
+                    System.out.print("\t");
             }System.out.println();
         }
     }
