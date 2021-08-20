@@ -28,4 +28,3 @@ public class Pattern17 {
 
     }
 }
-//lololol12413412356757657657657vasdkvbksdjvksa
